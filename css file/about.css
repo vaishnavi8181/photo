@@ -1,0 +1,240 @@
+
+/* foooter whatsapp */
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+  
+  
+    body {
+        color: #6F8BA4;
+        margin-top: 20px;
+    }
+
+    .section {
+        padding: 100px 0;
+        position: relative;
+    }
+
+    .gray-bg {
+        background-color: #f5f5f5;
+    }
+
+    img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    img {
+        vertical-align: middle;
+        border-style: none;
+    }
+
+    /* About Me 
+---------------------*/
+    .about-text h3 {
+        font-size: 45px;
+        font-weight: 450;
+        margin: 0 0 6px;
+    }
+
+    @media (max-width: 767px) {
+        .about-text h3 {
+            font-size: 35px;
+        }
+    }
+
+    .about-text h6 {
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    @media (max-width: 767px) {
+        .about-text h6 {
+            font-size: 18px;
+        }
+    }
+
+    .about-text p {
+        font-size: 18px;
+        max-width: 450px;
+    }
+
+    .about-text p mark {
+        font-weight: 500;
+        color: #23242b;
+    }
+
+    .about-list {
+        padding-top: 10px;
+    }
+
+    .about-list .media {
+        padding: 5px 0;
+    }
+
+    .about-list label {
+        color: #0a0a49;
+        font-weight: 600;
+        width: 88px;
+        margin: 0;
+        position: relative;
+    }
+
+    .about-list label:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 11px;
+        width: 1px;
+        height: 12px;
+        background: #9495a3;
+        -moz-transform: rotate(15deg);
+        -o-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+        margin: auto;
+        opacity: 0.5;
+    }
+
+    .about-list p {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    @media (max-width: 991px) {
+        .about-avatar {
+            margin-top: 30px;
+        }
+    }
+
+    .about-section .counter {
+        padding: 22px 20px;
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+    }
+
+    .about-section .counter .count-data {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about-section .counter .count {
+        font-weight: 700;
+        color: #7c7c8b;
+        margin: 0 0 5px;
+    }
+
+    .about-section .counter p {
+        font-weight: 600;
+        margin: 0;
+    }
+
+    mark {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.103), rgba(53, 49, 49, 0));
+        background-size: 100% 3px;
+        background-repeat: no-repeat;
+        background-position: 0 bottom;
+        background-color: transparent;
+        padding: 0;
+        color: currentColor;
+    }
+
+    .theme-color {
+        color: #59545f;
+    }
+
+    .insta{
+        text-decoration: none; /* Removes the underline */
+        color:#23242b;
+    }
+
+    .dark-color {
+        color: #212529;
+    }
+
+    
+    .my-float {
+        margin-top: 16px;
+    }
+
+            #bsaHolder {
+                right: 10px;
+                position: absolute;
+                top: 0;
+                width: 345px;
+                z-index: 10
+            }
+
+            #bsa_closeAd {
+                width: 15px;
+                height: 15px;
+                overflow: hidden;
+                position: absolute;
+                top: 10px;
+                right: 110px;
+                border: none !important;
+                z-index: 1;
+                text-decoration: none !important;
+                background: url(https://bootdey.com/img/x_icon.png) rgb(167, 149, 149) no-repeat
+            }
+
+            #carbonads * {
+                margin: initial;
+                padding: initial;
+                text-align: center
+            }
+
+            #carbonads {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                display: inline-block;
+                font-size: 14px;
+                text-shadow: 0 1px hsla(0, 0%, 100%, .8)
+            }
+
+            #carbonads a,
+            #carbonads a:hover {
+                color: #444;
+                text-decoration: none
+            }
+
+            #carbonads>span {
+                display: grid;
+                background-color: #f9f9fa;
+                max-width: 250px;
+                padding: 1em;
+                box-sizing: border-box;
+                border-radius: 4px;
+                box-shadow: 0 0 1px hsl(0deg 0% 0% / .075), 0 0 2px hsl(0deg 0% 0% / .075), 0 0 4px hsl(0deg 0% 0% / .075), 0 0 8px hsl(0deg 0% 0% / .075), 0 0 16px hsl(0deg 0% 0% / .075)
+            }
+
+            #carbonads .carbon-wrap {
+                display: grid;
+                row-gap: 1em
+            }
+
+            #carbonads .carbon-text {
+                font-size: 1em;
+                margin-bottom: .5em
+            }
+
+            #carbonads .carbon-poweredby {
+                opacity: .5;
+                font-size: .725em;
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: .05ch
+            }
